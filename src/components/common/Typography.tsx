@@ -24,6 +24,8 @@ const Typography = styled.Text<TypographyProps>`
 
   ${(props: TypographyProps) =>
     props.href && `margin: 0 6px; text-decoration-line: underline;`}
+
+  ${(props: TypographyProps) => `color:${props.theme.colors.text}`}
 `;
 
 export default Typography;

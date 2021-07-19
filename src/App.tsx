@@ -61,7 +61,7 @@ const App: React.FC = () => {
         </Typography>
       </Box>
 
-      <Button onPress={() => void 0} title="Example button" />
+      <Button onPress={() => alert("Hello")} title="Example button" />
     </Box>
   );
 };

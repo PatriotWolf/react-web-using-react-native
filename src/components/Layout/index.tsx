@@ -23,7 +23,6 @@ const StyledLayoutIOS = styled.SafeAreaView`
 
 export const Layout: React.FC = ({ children }) => {
   const theme = useTheme();
-  console.log(Platform.OS);
   const isAndroid = Platform.OS !== "ios";
 
   useEffect(() => {
